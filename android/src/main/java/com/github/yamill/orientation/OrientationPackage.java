@@ -22,7 +22,6 @@ public class OrientationPackage implements ReactPackage {
         );
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
